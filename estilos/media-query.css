@@ -46,14 +46,24 @@ grandes telas: acima de 1200px
     }
 
     #imagem{
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
 
     #formulario{
-        float: right;
+        float: left;
         width: 55%;
+    }
+
+    #formulario > h1{
+        text-align: center;
+        margin: 15px;
+        font-size: 2em;
+    }
+
+    #formulario > p{
+        font-size: 1.3em;
     }
     
 }
