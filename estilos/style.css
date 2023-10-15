@@ -1,3 +1,49 @@
 @charset "UTF-8";
 
-/* PALE */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-image: linear-gradient(#16346d, #5f4216);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: rgb(225, 227, 230);
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 2px 1px 10px #00000079;
+
+    transition: width 0.3s , height 0.3s;
+
+}
+
+#imagem {
+    display: block;
+    background-color: #ff0800;
+    background: url('../imagens/universe.jpg') no-repeat;
+    background-size: cover;
+    height: 200px;   
+}
+
+#formulario {
+    display: block;
+    padding: 10px;
+}
