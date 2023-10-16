@@ -32,6 +32,14 @@ grandes telas: acima de 1200px
         float: right;
         width: 60%;
     }
+
+    .botao{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
     
 }
 
@@ -66,6 +74,7 @@ grandes telas: acima de 1200px
     #formulario > p{
         font-size: 1.3em;
     }
+    
     
 }
   
